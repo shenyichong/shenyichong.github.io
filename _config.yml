@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: AlphaFold3 算法解析文档网站
+title: 沈亦翀的个人站点
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   这是我的第一个blog网页尝试

@@ -4,7 +4,7 @@ layout: default  # 或者你使用的布局，如果使用了主题，通常是 
 
 # Accurate structure prediction of biomolecular interactions with AlphaFold 3
 
-**作者:** 沈亦翀, 马大程
+**作者:** 沈亦翀 (shenyichong2011@gmail.com), 马大程 (dachengma916@gmail.com)
 
 **最后更新:** 2025年2月6日
 

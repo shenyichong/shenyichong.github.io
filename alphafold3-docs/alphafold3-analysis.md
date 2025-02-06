@@ -2,7 +2,7 @@
 layout: default  # 或者你使用的布局，如果使用了主题，通常是 default
 ---
 
-# Accurate structure prediction of biomolecular interactions with AlphaFold 3
+# 超详细 AlphaFold 3 算法解析
 
 **作者:** 沈亦翀 (shenyichong2011@gmail.com), 马大程 (dachengma916@gmail.com)
 

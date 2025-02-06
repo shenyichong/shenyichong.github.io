@@ -1,7 +1,0 @@
-site_name: My Technical Documents # 网站名称，可以修改为您自己的
-theme: material            # 使用 Material 主题
-
-nav:                      # 网站导航栏
-  - Home: index.md        # 首页，指向 docs 文件夹下的 index.md (您可以创建或修改 docs/index.md 作为首页)
-  - AlphaFold3 Analysis: alphafold3-analysis.md # 导航栏添加 "AlphaFold3 Analysis" 链接，指向 docs/alphafold3-analysis.md
-  # 您可以根据需要在 nav 下继续添加其他文档的链接，格式为： - 导航标题: 文档路径

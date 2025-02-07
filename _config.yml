@@ -60,3 +60,7 @@ header_pages:
   - cv.md
   - contact.md
   - docs.md
+
+# 确保验证文件不被 Jekyll 处理
+include:
+  - googlef2e3551b5ebdaad7.html

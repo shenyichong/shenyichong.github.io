@@ -111,3 +111,24 @@ body.light-theme .site-title {
     display: none;
   }
 } 
+
+.post-copyright {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.post-copyright p {
+  margin: 5px 0;
+  font-size: 0.9em;
+  color: #666;
+}
+
+body.dark-theme .post-copyright {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+body.dark-theme .post-copyright p {
+  color: #999;
+}

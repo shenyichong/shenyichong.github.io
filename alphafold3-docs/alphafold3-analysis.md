@@ -774,3 +774,5 @@ $\mathcal{L}\_{\text{loss}} = \alpha\_{\text{confidence}} \cdot \left( \mathcal{
             2. 这里的LinearNoBias_token_atom_idx(l)( … ) ，这个函数的作用是，针对不同的原子l，其对应的用于线性变换的矩阵是不同的，通过token_atom_idx(l)来获取对应的weight矩阵，矩阵形状为[c_token, b_plddt] ，然后将其右乘s_i(l)，形状是[c_token]得到最终的向量为[b_plddt]。
             3. 最后再进行softmax来得到pLDDT的置信度概率，其b_plddt=50，是一个50维度的向量，标识lddt的值落到这个50个bin范围内的概率。
         8. 计算resolved的置信度概率（注意，这里的resolved的置信度概率也是针对每一个原子的值，同上）：计算的结果经过softmax之后是一个2维的向量，预测当前原子是否能够被实验解析出来的置信度。
+
+{% include copyright.html %}

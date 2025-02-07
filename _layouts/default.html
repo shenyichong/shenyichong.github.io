@@ -316,7 +316,7 @@
         <div class="wrapper">
             <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | default: 'AlphaFold3 文档' }}</a>
             <nav class="site-nav">
-                <a href="{{ '/about' | relative_url }}">关于</a>
+                <a href="{{ '/cv' | relative_url }}">CV</a>
                 <a href="{{ '/docs' | relative_url }}">文档</a>
                 <a href="{{ '/publications' | relative_url }}">发表</a>
                 <a href="{{ '/contact' | relative_url }}">联系</a>
@@ -342,8 +342,10 @@
     <footer class="site-footer">
       <div class="wrapper">
         <p>
-          © {{ site.time | date: '%Y' }} {{ site.author.name | default: site.title }}.
-          Powered by <a href="https://jekyllrb.com">Jekyll</a> — Theme <a href="https://github.com/jekyllthemes/minima">Minima</a>.
+          © {{ site.time | date: '%Y' }} {{ site.author.name | default: site.title }}. 保留所有权利。
+        </p>
+        <p>
+          本站内容采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a> 进行许可。
         </p>
       </div>
     </footer>

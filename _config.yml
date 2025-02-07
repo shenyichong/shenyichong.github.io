@@ -55,3 +55,8 @@ plugins:
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+
+header_pages:
+  - cv.md
+  - contact.md
+  - docs.md
